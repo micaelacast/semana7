@@ -1,0 +1,100 @@
+.topnav {
+    overflow: hidden;
+    background-color: #99DFCC;
+    font-family: 'Poppins', sans-serif;
+    font-style: white;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #D98DCC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #99DFCC;
+    font-family:'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+#banner img { 
+    position:relative; 
+    z-index:10; 
+    top:0; 
+}
+
+.h1 {
+    position:absolute;
+    top:20px;
+    left:300px;
+    text-indent: -9999px;  
+    z-index:20; 
+}
+
+
+.footer {
+    font-style: #D98DCC;
+    font-family: 'PT Serif', serif;
+    background-color: #99DFCC;
+    width: 33.33%;
+    float: all;
+
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    font-family: 'PT Serif', serif;
+    font-size: 80%;
+    
+    
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 33.33%;
+
+    
+    
+}
+
+.column {
+    float: left;
+   
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.middle {
+    width: 20%;
+}
+
+.body {
+    background-color: white;
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #D98DCC;
+    font-style: center;
+}
+
+.p {
+    padding: 1.5%;
+}
+
